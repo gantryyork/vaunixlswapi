@@ -11,4 +11,5 @@ LSWtest : LSWtest.c LSWhid.o LSWhid.h
 
 clean :
 	rm -f LSWhid.o
+	rm -f liblswhid.so
 	rm -f LSWtest
